@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Variáveis para armazenar os dados das cidades
+    // Área para definição das variáveis
     int populacao1, populacao2;
     float area1, area2, pib1, pib2;
     int pontos_turisticos1, pontos_turisticos2;
@@ -9,7 +9,7 @@ int main() {
     // Cadastro da primeira cidade
     printf("Cadastro da primeira cidade:\n");
     printf("Digite a população da cidade: ");
-    scanf (&populacao1);
+    scanf("%d", &populacao1);
 
     printf("Digite a área da cidade (em km²): ");
     scanf("%f", &area1);
@@ -20,7 +20,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &pontos_turisticos1);
 
-    // Cadastro da segunda cidade
+    //Área para entrada de dados// Cadastro da segunda cidade
     printf("\nCadastro da segunda cidade:\n");
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao2);
@@ -34,7 +34,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade: ");
     scanf("%d", &pontos_turisticos2);
 
-    // Exibindo os dados das duas cidades
+    // Área para exibição dos dados das cidades
     printf("\n--- Dados Cadastrados ---\n");
 
     printf("\nCidade 1:\n");
